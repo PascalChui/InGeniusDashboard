@@ -1,0 +1,47 @@
+{
+  "name": "ingenius-dashboard",
+  "version": "0.1.0",
+  "description": "Dashboard central pour l'écosystème d'agents IA InGenius",
+  "main": "index.js",
+  "scripts": {
+    "start": "echo \"Serveur de développement démarré\" && live-server",
+    "build": "echo \"Construction du projet\" && mkdir -p dist && cp -r src/* dist/",
+    "test": "echo \"Exécution de tous les tests\" && npm run test:unit && npm run test:integration",
+    "test:unit": "echo \"Exécution des tests unitaires\"",
+    "test:integration": "echo \"Exécution des tests d'intégration\"",
+    "test:e2e": "echo \"Exécution des tests end-to-end\"",
+    "lint": "echo \"Vérification du code\"",
+    "docs": "echo \"Génération de la documentation\"",
+    "prepare": "echo \"Installation des hooks git\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PascalChui/InGeniusDashboard.git"
+  },
+  "keywords": [
+    "ingenius",
+    "ai",
+    "agents",
+    "dashboard",
+    "mastermind"
+  ],
+  "author": "Pascal Chui",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PascalChui/InGeniusDashboard/issues"
+  },
+  "homepage": "https://github.com/PascalChui/InGeniusDashboard#readme",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0",
+    "live-server": "^1.2.2"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  },
+  "private": true
+}
