@@ -1,0 +1,6 @@
+# 📅 Log - Démarrage du système InGenius Connect
+
+- ✅ Token GitHub généré et stocké dans `.env`
+- ✅ Fichier de secrets configuré
+- ✅ Dossier de mémoire locale `ingenius-mind` créé
+- ⏳ Prochaine étape : Script de synchronisation GitHub ↔️ Mémoire
