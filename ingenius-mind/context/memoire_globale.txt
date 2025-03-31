@@ -18,8 +18,28 @@ Objectif actuel : Activation de la boucle GitHub ↔️ IA
 - `/src/agents/assembleur/README.md` : Documentation de l'Agent Assembleur
 - `/ingenius-mind/context/rapport_progression_agents.md` : Rapport détaillé
 
+### Amélioration du Système de Mémoire
+- Implémentation d'un système de snapshots chronologiques
+- Création du script `memory_manager.py` pour la gestion des instantanés
+- Structure de dossiers `/context/snapshots/` pour l'historique des versions
+- Documentation complète dans `/context/README.md`
+- Premier snapshot créé (2025-03-31-1)
+- Ajout d'un fichier de synthèse dédié pour Mastermind GPT
+- Système compatible avec le protocole de collaboration inter-IA existant
+
 ### Prochaines Étapes
-- Intégration de l'Agent Testeur
-- Connexion avec UX Designer AI
-- Amélioration du système de mémoire
-- Développement d'une interface dédiée pour la visualisation des interactions
+- Intégration de l'Agent Testeur dans le workflow de développement
+- Connexion avec UX Designer AI pour enrichir les interfaces générées
+- Développement d'une interface utilisateur dédiée pour visualiser les interactions
+- Enrichissement du système de mémoire avec des capacités de recherche
+- Tests à grande échelle sur des projets réels plus complexes
+
+## Communication Inter-Agents
+
+La communication entre Claude AI et Mastermind GPT a été renforcée grâce à:
+- Le fichier de collaboration mis à jour
+- Des fichiers de synthèse dédiés pour chaque agent
+- Un système de mémoire partagée préservant l'historique complet
+- Des outils de comparaison de versions pour suivre l'évolution du projet
+
+Les deux agents disposent maintenant d'un cadre structuré pour maintenir une vision cohérente du projet tout en conservant leurs rôles distincts et complémentaires.
