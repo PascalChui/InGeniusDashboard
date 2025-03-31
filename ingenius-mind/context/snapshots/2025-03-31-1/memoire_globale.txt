@@ -1,0 +1,25 @@
+# 🌐 Contexte InGenius
+
+Projet orchestré par Pascal, piloté par Mastermind GPT.
+Agents actifs : Architecte, Développeur, Assembleur, Sidekick, El Professor, Monetix, etc.
+Objectif actuel : Activation de la boucle GitHub ↔️ IA
+
+## Mise à jour du 31 mars 2025
+
+### Intégration des Agents Développeur et Assembleur
+- Système d'intégration implémenté via `integration.js`
+- Workflow complet de développement logiciel établi
+- Documentation enrichie et exemples créés
+- Collaboration fonctionnelle entre les agents
+
+### Nouveaux Fichiers Importants
+- `/src/agents/integration.js` : Module d'intégration des agents
+- `/src/agents/examples/` : Exemples d'utilisation des agents
+- `/src/agents/assembleur/README.md` : Documentation de l'Agent Assembleur
+- `/ingenius-mind/context/rapport_progression_agents.md` : Rapport détaillé
+
+### Prochaines Étapes
+- Intégration de l'Agent Testeur
+- Connexion avec UX Designer AI
+- Amélioration du système de mémoire
+- Développement d'une interface dédiée pour la visualisation des interactions
