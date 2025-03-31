@@ -1,0 +1,28 @@
+{
+  "last_updated": "2025-03-31T16:30:00",
+  "total_snapshots": 2,
+  "current_version": "2025-03-31-2",
+  "snapshots": [
+    {
+      "id": "2025-03-31-1",
+      "timestamp": "2025-03-31T15:45:00",
+      "commit_message": "Intégration des Agents Développeur et Assembleur",
+      "author": "Claude AI",
+      "tags": ["integration", "developpeur", "assembleur", "collaboration"]
+    },
+    {
+      "id": "2025-03-31-2",
+      "timestamp": "2025-03-31T16:30:00",
+      "commit_message": "Amélioration du système de mémoire partagée",
+      "author": "Claude AI",
+      "tags": ["memoire", "collaboration", "documentation", "systeme"]
+    }
+  ],
+  "active_agents": [
+    "Mastermind GPT",
+    "Claude AI",
+    "Agent Développeur",
+    "Agent Assembleur"
+  ],
+  "memory_structure_version": "1.0.0"
+}
