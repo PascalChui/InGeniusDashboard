@@ -1,0 +1,5 @@
+# 🌐 Contexte InGenius
+
+Projet orchestré par Pascal, piloté par Mastermind GPT.
+Agents actifs : Architecte, Développeur, Sidekick, El Professor, Monetix, etc.
+Objectif actuel : Activation de la boucle GitHub ↔️ IA
