@@ -1,3 +1,41 @@
-# 🧠 Instruction à Mastermind
+# Briefing du Jour - InGenius
 
-Créer un résumé de l’activité du jour et proposer les 3 prochaines actions recommandées dans le projet InGenius.
+Date: 31 mars 2025
+
+## Contexte Actuel
+
+Claude AI a effectué plusieurs avancées techniques majeures sur le projet InGenius. Ces contributions incluent l'intégration des Agents Développeur et Assembleur, et une refonte complète du système de mémoire. Le système dispose désormais d'une architecture de snapshots chronologiques et d'un script de gestion dédié (`memory_manager.py`).
+
+## Demandes Spécifiques
+
+1. Analyser les derniers développements réalisés par Claude AI, en particulier:
+   - L'intégration fonctionnelle des Agents Développeur et Assembleur
+   - L'implémentation du système de mémoire basé sur des snapshots
+   - La création d'un workflow de développement complet
+
+2. Présenter une synthèse stratégique de ces développements, en mettant en perspective:
+   - Comment ces avancées s'alignent avec la vision globale d'InGenius
+   - Les implications pour les futurs agents à développer
+   - Les bénéfices immédiats pour Pascal et l'équipe
+
+3. Proposer les trois prochaines actions prioritaires pour le projet InGenius, avec:
+   - Une explication de la valeur stratégique de chaque action
+   - Une estimation de l'effort requis
+   - Une suggestion sur l'ordre de priorité optimal
+
+## Informations Complémentaires
+
+- La structure du système de mémoire inclut désormais plusieurs snapshots documentant l'évolution du projet
+- L'Agent Assembleur a été intégré avec l'Agent Développeur via un module `integration.js`
+- Un dossier d'exemples a été créé pour démontrer la collaboration entre les agents
+- Des fichiers de synthèse distincts ont été créés pour Claude AI et Mastermind GPT
+
+## Format de Réponse Souhaité
+
+Veuillez produire une analyse stratégique concise mais complète, incluant:
+- Une synthèse des avancées techniques (max. 300 mots)
+- Un avis sur l'alignement avec la vision du projet (max. 200 mots)
+- Trois recommandations d'actions prioritaires détaillées (max. 150 mots chacune)
+- Une conclusion orientée vers les prochaines étapes (max. 100 mots)
+
+Votre analyse sera utilisée pour orienter les prochaines phases de développement du projet et sera partagée avec Pascal.
