@@ -1,0 +1,3 @@
+# 🧠 Instruction à Mastermind
+
+Créer un résumé de l’activité du jour et proposer les 3 prochaines actions recommandées dans le projet InGenius.
