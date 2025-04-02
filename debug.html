@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Momentrix NBA - Page de Diagnostic</title>
+    <style>
+        body { font-family: Arial, sans-serif; max-width: 800px; margin: 0 auto; padding: 20px; }
+        h1 { color: #0066cc; border-bottom: 2px solid #eee; }
+        pre { background-color: #f5f5f5; padding: 15px; border-radius: 5px; }
+        button { background-color: #0066cc; color: white; border: none; padding: 10px 15px; 
+                border-radius: 5px; cursor: pointer; margin-right: 10px; }
+        .info { background-color: #e6f7ff; border-left: 4px solid #1890ff; padding: 10px 15px; }
+    </style>
+</head>
+<body>
+    <h1>Momentrix NBA - Page de Diagnostic</h1>
+    <div class="info">
+        <p>Cette page aide à diagnostiquer les problèmes avec l'application.</p>
+    </div>
+    <h2>Tests</h2>
+    <div>
+        <button onclick="testLocalStorage^(^)">Tester LocalStorage</button>
+        <button onclick="clearLocalStorage^(^)">Effacer LocalStorage</button>
+    </div>
+    <h2>Journal</h2>
+    <pre id="log"></pre>
+    <script>
+        function log(msg) {
+            document.getElementById('log').textContent += msg + '\n';
+        }
+        function testLocalStorage() {
+            try {
+                localStorage.setItem('test', 'ok');
+                log('LocalStorage: ' + localStorage.getItem('test'));
+                localStorage.removeItem('test');
+            } catch (e) {
+                log('Erreur: ' + e.message);
+            }
+        }
+        function clearLocalStorage() {
+            try {
+                Object.keys(localStorage).forEach(key => {
+                    if (key.startsWith('momentrix_')) {
+                        localStorage.removeItem(key);
+                        log('Supprimé: ' + key);
+                    }
+                });
+            } catch (e) {
+                log('Erreur: ' + e.message);
+            }
+        }
+        window.onload = function() { log('Page chargée'); };
+    </script>
+</body>
+</html>

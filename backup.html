@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Momentrix NBA - Redirection</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #1D428A 0%, #C8102E 100%);
+      color: white;
+      height: 100vh;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    .logo {
+      font-size: 2.5rem;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+    .card {
+      background: rgba(255, 255, 255, 0.1);
+      padding: 30px;
+      border-radius: 10px;
+      max-width: 600px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    button {
+      background-color: #FFC72C;
+      color: #000;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      font-weight: bold;
+      cursor: pointer;
+      margin-top: 20px;
+    }
+    button:hover {
+      background-color: #FFD700;
+    }
+  </style>
+</head>
+<body>
+  <div class="logo">MOMENTRIX NBA</div>
+  <div class="card">
+    <h1>Tableau de bord en cours de chargement</h1>
+    <p>La plateforme de prédiction NBA a été déployée avec succès mais nous rencontrons un problème d'affichage.</p>
+    <p>L'équipe de 10 agents IA est en train d'analyser le problème et sera bientôt prête à vous assister.</p>
+    <button onclick="window.location.reload()">Rafraîchir la page</button>
+  </div>
+
+  <script>
+    // Test simple pour vérifier l'exécution JavaScript
+    console.log('Page de secours chargée avec succès');
+    
+    // Vérification simple de React
+    document.addEventListener('DOMContentLoaded', function() {
+      setTimeout(function() {
+        const reactRoot = document.getElementById('root');
+        if (reactRoot) {
+          console.log('Élément root React trouvé:', reactRoot);
+          if (reactRoot.childNodes.length === 0) {
+            console.warn('Root React trouvé mais vide - React ne s\'est pas monté');
+          }
+        } else {
+          console.error('Élément root React non trouvé - problème HTML de base');
+        }
+      }, 2000);
+    });
+  </script>
+</body>
+</html>

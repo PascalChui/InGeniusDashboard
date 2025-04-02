@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800px" height="200px" viewBox="0 0 800 200" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <title>Momentrix NBA Banner</title>
+    <defs>
+        <linearGradient x1="0%" y1="0%" x2="100%" y2="100%" id="gradient">
+            <stop stop-color="#1D428A" offset="0%"></stop>
+            <stop stop-color="#C8102E" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g stroke="none" fill="none">
+        <rect fill="url(#gradient)" x="0" y="0" width="800" height="200" rx="10"></rect>
+        <text font-family="Arial, sans-serif" font-size="60" font-weight="bold" fill="#FFFFFF" text-anchor="middle" x="400" y="100">
+            MOMENTRIX NBA
+        </text>
+        <text font-family="Arial, sans-serif" font-size="24" font-weight="normal" fill="#FFFFFF" text-anchor="middle" x="400" y="140">
+            Plateforme IA de Prédiction Sportive
+        </text>
+        <circle cx="160" cy="100" r="40" stroke="#FFFFFF" stroke-width="4" fill="none"></circle>
+        <path d="M160 60 Q180 80 160 100 Q140 120 160 140" stroke="#FFFFFF" stroke-width="4" fill="none"></path>
+        <path d="M140 80 L180 80 M140 120 L180 120" stroke="#FFFFFF" stroke-width="4"></path>
+        <circle cx="640" cy="100" r="40" stroke="#FFFFFF" stroke-width="4" fill="none"></circle>
+        <path d="M620 80 L660 120 M620 120 L660 80" stroke="#FFFFFF" stroke-width="6"></path>
+    </g>
+</svg>
